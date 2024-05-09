@@ -7,20 +7,32 @@
 header{
     background-color: rgb(98, 126, 227);
 }
-
 .viaje{
     display: flex;
     justify-content: space-around;
     padding: 1rem;
 }
-
-.bottons{
+.navegador{
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-
+.navegadores{
+    display: flex;
+}
+.button{
+    background-color: blue;
+    margin: 1rem;
+}
 .logo{
     width: 100px;
     height: 100px;
 }
+
+.destino{
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
