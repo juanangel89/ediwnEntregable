@@ -2,17 +2,18 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 <body>
     <header>
-        <div class="viaje">
+        <div class="travel">
             
-            <div class="navegador">
+            <div class="nav">
                 <h1>Ed-Travel</h1>
-                <div class="navegadores">
+                <div class="navs">
                     <div class="button"><a href="">vuelos</a></div>
                     <div class="button"><a href="">Alquiler de carros</a></div>
                     <div class="button"><a href="">Librerias</a></div>
@@ -22,71 +23,104 @@
         </div>
         
     </header>
-    <section class="destino">
-        <div class="lista"><a href="">Ciudad de destino</a></div>
+    <section class="destination">
+        <select>
+            <option value="">Ciudad de Destino</option>
+            <option value="">Berlin</option>
+            <option value="">Chemnitz</option>
+            <option value="">Colonia</option>
+            <option value="">Dresde</option>
+            <option value="">Friburgo de Brisgovia</option>
+            <option value="">Fráncfort del Meno</option>
+            <option value="">Füssen</option>
+            <option value="">Garmisch-Partenkirchen</option>
+            <option value="">Hamburgo</option>
+            <option value="">Mannheim</option>
+            <option value="">Munich</option>
+            <option value="">Potsdam</option>
+            <option value="">Salzburgo</option>
+        </select>
+        
         <h3>Día de Salida</h3>
-        <div class="lista"><a href="">dd/mm/aaaa</a></div>
+        <input type="date">
         <h3>Día de Regreso</h3>
-        <div class="lista"><a href="">dd/mm/aaaa</a></div>
-        <div class="lista"><a href="">Cantidad de Personas</a></div>
+        <input type="date">
+        <select>
+            <option value="">Cantidad dePersonas</option>
+            <option value="">1</option>
+            <option value="">2</option>
+            <option value="">3</option>
+            <option value="">4</option>
+            <option value="">5</option>
+            <option value="">6</option>
+        </select>
     </section>
     <hr>
     <section class="cities">
-        <div class="city">
-            <h2>ciudad 1</h2>
+        <card class="city1">
+            <h2>Berlin</h2>
             <img src="" alt="">
-        </div>
-        <div class="city">
-            <h2>ciudad 1</h2>
+        </card>
+        <card class="city2">
+            <h2>Chemnitz</h2>
             <img src="" alt="">
-        </div>
-        <div class="city">
-            <h2>ciudad 1</h2>
+        </card>
+        <card class="city3">
+            <h2>Colonia</h2>
             <img src="" alt="">
-        </div>
-        <div class="city">
-            <h2>ciudad 1</h2>
+        </card>
+        <card class="city4">
+            <h2>Dresde</h2>
             <img src="" alt="">
-        </div>
-        <div class="city">
-            <h2>ciudad 1</h2>
+        </card>
+        <card class="city5">
+            <h2>Friburgo de Brisgovia</h2>
             <img src="" alt="">
-        </div>
-        <div class="city">
-            <h2>ciudad 1</h2>
+        </card>
+        <card class="city6">
+            <h2>Fráncfort del Meno</h2>
             <img src="" alt="">
-        </div>
-        <div class="city">
-            <h2>ciudad 1</h2>
+        </card>
+        <card class="city7">
+            <h2>Füssen</h2>
             <img src="" alt="">
-        </div>
-        <div class="city">
-            <h2>ciudad 1</h2>
+        </card>
+        <card class="city8">
+            <h2>Garmisch-Partenkirchen</h2>
             <img src="" alt="">
-        </div>
-        <div class="city">
-            <h2>ciudad 1</h2>
+        </card>
+        <card class="city9">
+            <h2>Hamburgo</h2>
             <img src="" alt="">
-        </div>
-        <div class="city">
-            <h2>ciudad 1</h2>
+        </card>
+        <card class="city10">
+            <h2>Mannheim</h2>
             <img src="" alt="">
-        </div>
-        <div class="city">
-            <h2>ciudad 1</h2>
+        </card>
+        <card class="city11">
+            <h2>Munich</h2>
             <img src="" alt="">
-        </div>
-        <div class="city">
-            <h2>ciudad 1</h2>
+        </card>
+        <card class="city12">
+            <h2>Potsdam</h2>
             <img src="" alt="">
-        </div>
-        <div class="city">
-            <h2>ciudad 1</h2>
+        </card>
+        <card class="city13">
+            <h2>Salzburgo</h2>
             <img src="" alt="">
-        </div>
+        </card>
     </section>
     <footer>
-
+        
+        <section class="social">
+            <ul>
+                <hr>
+                <i class='bx bxl-whatsapp' ></i>
+                <i class='bx bxl-facebook'></i>
+                <i class='bx bxl-instagram' ></i>
+                <i class='bx bxl-linkedin' ></i>
+            </ul>
+        </section>
     </footer>
 </body>
 </html>
